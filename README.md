@@ -1,31 +1,16 @@
-# sing-box
+# Hotaru Core
 
-The universal proxy platform.
+A lightweight sing-box fork used by [Hotaru](https://github.com/kurumiZafkiel12/Hotaru).
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/sing-box.svg)](https://repology.org/project/sing-box/versions)
+The `hotaru` branch is based on **sing-box v1.14.4**, upstream commit
+`c005f35300ce76427dc285481ec5695f5b179cd2`. It is the stable integration branch;
+the upstream `testing` branch is retained separately.
 
-## Documentation
+Routing policy, subscription conversion, diagnostics and user interface logic belong to the Hotaru client.
+This fork preserves the upstream protocol and routing behavior. Its patch policy permits build tag
+selection, product identification and libbox platform integration only.
 
-https://sing-box.sagernet.org
+See [the patch policy](HOTARU-PATCH-POLICY.md), [upstream documentation](https://sing-box.sagernet.org/)
+and [the original README](README.upstream.md).
 
-## License
-
-```
-Copyright (C) 2022 by nekohasekai <contact-sagernet@sekai.icu>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-In addition, no derivative work may use the name or imply association
-with this application without prior consent.
-```
+The source remains licensed under [GPL-3.0-or-later](LICENSE). Upstream copyright and attribution are retained.
